@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{gsap.registerPlugin(ScrollTrigger,ScrollSmoother),ScrollTrigger.isTouch!==1&&ScrollSmoother.create({wrapper:".wrapper",content:".content",smooth:1,effects:!0})});function e(o){gsap.to(window,{duration:.5,scrollTo:{y:o,offsetY:60}})}window.customScrollToElement=e;
